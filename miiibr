@@ -1,1 +1,75 @@
-miibr.duckdns.org
+{
+  "Version": "1.0.0",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/Onefoxy/testefree1/main/miiibr",
+  "Sms": "",
+  "EmailFeedback": "netamazonas@gmail.com",
+  "UrlContato": "https://tvfree.xyz/",
+  "UrlTermos": "https://bitbin.it/IxrbT1Tw/raw/",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "↓ESCOLHA SUA OPERADORA↓",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "mbr.clodfront.site",
+      "CheckUser": "http://miibr.duckdns.org:6868/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    
+    {
+      "Name": "TIM",
+      "FLAG": "tim",
+      "Payload": "GET wss://blog.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "blog.c6bank.com.br",
+      "TlsIP": "104.16.236.16",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+	
+	 {
+      "Name": "TIM",
+      "FLAG": "tim",
+      "Payload": "GET wss://auth.of.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "auth.of.c6bank.com.br",
+      "TlsIP": "172.64.144.237",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
