@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Onefoxy/testefree1/main/COELHOAPP",
   "Sms": "",
@@ -38,11 +38,21 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM",
+      "Name": "TIM 01",
       "FLAG": "tim",
-      "Payload": "GET wss://blog.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "blog.c6bank.com.br",
-      "TlsIP": "104.18.43.19",
+      "Payload": "GET wss://support.deezer.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "support.deezer.com",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+ {
+      "Name": "TIM 02",
+      "FLAG": "tim",
+      "Payload": "GET wss://auth-dev-us.surveymonkey.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "auth-dev-us.surveymonkey.com",
+      "TlsIP": "172.64.147.197",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
